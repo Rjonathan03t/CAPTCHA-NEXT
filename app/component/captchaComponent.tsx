@@ -8,7 +8,7 @@ const CaptchaComponent = () => {
   useEffect(() => {
     const loadCaptchaScript = () => {
       const script = document.createElement("script");
-      script.src =
+      script.src=
         "https://2b17d9cec338.eu-west-3.captcha-sdk.awswaf.com/2b17d9cec338/jsapi.js";
       script.defer = true;
       document.body.appendChild(script);
